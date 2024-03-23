@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: gray;
+    padding: 30px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-shrink: 10;
+    
+    
+}
+ 
+section{
+    
+    
+    background-color:cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px;
+}
+
+    
+section div{
+
+    font-size: 20px;
+    border: 2px solid rgb(31, 146, 37);
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+   
+
+    
+.uno{
+    
+    background-color: rgb(70, 143, 70);
+    flex-shrink: 6;
+    
+}    
+
+.dos{
+    
+    background-color: rgb(179, 206, 81);
+    flex-shrink: 6;
+   
+}
+.tres{
+    
+    background-color: rgb(255, 38, 0);
+    flex-shrink: 6;
+    
+}
+.cuatro{
+  
+    background-color: rgb(255, 0, 179);
+    flex-shrink: 6;
+}    
+.cinco{
+   
+    background-color: rgb(189, 69, 69);
+    flex-shrink: 6;
+}
+.seis{
+   
+    background-color: rgb(100, 166, 192);
+    flex-shrink: 6;
+}
+.siete{
+    
+    background-color: rgb(18, 119, 43);
+    flex-shrink: 6;
+}
+.ocho{
+    
+    
+    background-color: rgb(12, 76, 92);
+    flex-shrink: 6;
+}
+.nueve{
+    
+    background-color: rgb(173, 230, 127);
+    flex-shrink: 6;
+}
+.diez{
+    
+    background-color: rgb(160, 87, 19);
+    flex-shrink: 6;
+}
+.once{
+    
+    background-color: rgb(105, 170, 187);
+    flex-shrink: 6;
+}
