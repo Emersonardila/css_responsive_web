@@ -20,24 +20,36 @@ body {
 /* ----------- ALUMNO ----------------- */
 /* Aca debe colocar los estilos necesarios para generar el layout
  que se ve en la imagen*/
+section  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+section div{
+   border-radius : 5px;
+   text-align: center;
+   border:2px solid aqua;
+}
 
-/* ------------------------------------ */
 
-/* Color de fondo según tipo */
+ 
 .normal {
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 1) 0%,
-    rgba(168, 167, 122, 1) 100%
+    rgb(92, 238, 48) 100%
   );
 }
-.agua {
+.agua{
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 1) 0%,
-    rgba(99, 144, 240, 1) 100%
+    rgb(188, 190, 22) 100%
   );
 }
+
+
 .fuego {
   background: radial-gradient(
     circle,
@@ -65,4 +77,30 @@ body {
     rgba(255, 255, 255, 1) 0%,
     rgb(104, 40, 90) 100%
   );
+}
+.simon{
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(96, 57, 187) 100%
+  );
+}
+.pedro{
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(28, 194, 36) 100%
+  );
+}
+@media only screen and (max-width: 1000px) {
+  section {
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(4, minmax(10px, 1fr));
+    grid-template-areas:
+      "uno"
+      "dos"
+      "tres"
+      "cuatro"
+      "cinco";
+  }
 }
